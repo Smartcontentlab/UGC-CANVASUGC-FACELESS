@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VO Recording Sheet — The Faceless Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#101014;--soft:#4b4b53;--muted:#8a8a92;--line:#e7e7ec;--bg:#fbfbfc;--card:#ffffff;--accent:#e8442e;--green:#0e8f6e;--gold:#b7791f;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;padding:0 5% 80px}
+  .wrap{max-width:860px;margin:0 auto}
+  header{padding:48px 0 10px}
+  h1{font-size:clamp(1.7rem,4vw,2.5rem);font-weight:800;letter-spacing:-.02em}
+  .sub{color:var(--soft);margin-top:8px;font-size:1rem}
+  .count-strip{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 8px}
+  .pill{font-size:.78rem;font-weight:700;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--soft)}
+  .pill b{color:var(--ink)}
+  .howto{background:#101014;color:#fff;border-radius:16px;padding:22px 24px;margin:26px 0 8px}
+  .howto h2{font-size:1rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px;color:#ffd9d2}
+  .howto ol{margin-left:18px;font-size:.95rem;display:grid;gap:7px}
+  .howto b{color:#ffd9d2}
+  .send{background:#e7f5ec;border:1px solid #bfe4cf;border-radius:14px;padding:16px 20px;margin:14px 0 6px;font-size:.92rem;color:#14532d}
+  .send b{color:#0b3d20}
+  section{margin-top:44px}
+  .sec-title{display:flex;align-items:baseline;gap:12px;margin-bottom:6px}
+  .sec-title h2{font-size:1.3rem;font-weight:800}
+  .sec-title span{font-size:.82rem;color:var(--muted);font-weight:600}
+  .sec-note{font-size:.85rem;color:var(--muted);margin-bottom:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin-bottom:16px;position:relative}
+  .card:has(input:checked){border-color:var(--green);background:#f4fbf8}
+  .card-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+  .fname{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:1.15rem;background:#101014;color:#fff;padding:4px 12px;border-radius:8px;letter-spacing:.01em}
+  .card:has(input:checked) .fname{background:var(--green)}
+  .time{font-size:.78rem;font-weight:800;color:var(--accent);border:1.5px solid currentColor;border-radius:999px;padding:3px 10px;white-space:nowrap}
+  .ttl{font-weight:700;font-size:1rem;color:var(--soft)}
+  .vibe{font-size:.8rem;color:var(--gold);font-weight:600;margin-bottom:12px}
+  .script{font-size:1.22rem;line-height:1.65;color:var(--ink);background:var(--bg);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;padding:16px 20px;font-weight:500}
+  .card:has(input:checked) .script{border-left-color:var(--green)}
+  .done{position:absolute;top:18px;right:18px;display:flex;align-items:center;gap:7px;font-size:.78rem;font-weight:700;color:var(--muted);cursor:pointer;user-select:none}
+  .done input{width:20px;height:20px;accent-color:var(--green);cursor:pointer}
+  .bonus{background:#fff8ec;border:1px solid #eddcb8}
+  .bonus .script{border-left-color:var(--gold);background:#fffdf7;font-size:1rem}
+  .foot{margin-top:40px;font-size:.8rem;color:var(--muted);text-align:center}
+  @media print{.howto{background:#fff;color:#000;border:1px solid #000}.done{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>🎙️ VO Recording Sheet</h1>
+  <p class="sub">Every script, its exact file name, and how to send it back. Read the script text out loud from this page — it's sized for arm's length.</p>
+  <div class="count-strip">
+    <span class="pill">🎬 Portfolio swaps: <b>8</b></span>
+    <span class="pill">📱 Your feed: <b>7</b></span>
+    <span class="pill">👋 Bonus intro: <b>1</b></span>
+    <span class="pill">⏱️ Total read time: <b>~4.5 min</b> (plan ~30–40 min with takes)</span>
+  </div>
+</header>
+
+<div class="howto">
+  <h2>How to record (iPhone)</h2>
+  <ol>
+    <li><b>Voice Memos</b> app · Settings → Voice Memos → <b>Lossless</b> on · airplane mode on.</li>
+    <li>Quiet room — a <b>closet full of clothes</b> is a free studio. Phone 6–12" from your mouth, slightly off to the side.</li>
+    <li><b>Say the file name at the start</b> ("vo p one"), then do <b>2–3 takes back-to-back</b> in the same memo. I'll pick the best.</li>
+    <li>Tone: talking to a friend, slight smile — it's audible. A touch slower beats rushed. Within ~2s of target is perfect.</li>
+    <li><b>Rename each memo to its file name</b> (vo_p1, vo_d03…) before sending.</li>
+  </ol>
+</div>
+<div class="send">📤 <b>Sending back:</b> Voice Memos → share → <b>Save to Files</b> → attach all of them here in the chat (or the Google Drive folder if you enabled it). Any format works — m4a, mp3, wav.</div>
+
+<section>
+  <div class="sec-title"><h2>🎬 Batch 1 — Portfolio swaps</h2><span>your voice replaces the AI voice → AI-voice disclosure comes OFF these pieces</span></div>
+  <p class="sec-note">Piece 6 (flat-lay ASMR) has no voiceover — nothing to record for it.</p>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p1</span><span class="time">~24s</span><span class="ttl">AI Tools Listicle</span></div>
+    <p class="vibe">🎭 excited friend spilling a secret</p>
+    <p class="script">"Three AI tools that honestly feel illegal to know about. One: Perplexity. It's like Google, if Google just gave you the answer — with sources. Two: Gamma. One prompt, and it designs the entire presentation for you — slides, layout, everything. Three: ElevenLabs. Type anything… and it says it in any voice you want. Save this before your group chat finds out."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p2</span><span class="time">~24s</span><span class="ttl">TaskLoop SaaS Ad</span></div>
+    <p class="vibe">🎭 relatable overwhelm → relief</p>
+    <p class="script">"My brain has forty tabs open and none of them are loading. Every morning I'd waste an hour just deciding what to do first. TaskLoop just… builds my day for me. I dump everything in, it puts it in order. It even moves stuff when a meeting runs over. Automatically. Your to-do list should do the thinking. Link's below."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p3</span><span class="time">~22s</span><span class="ttl">Aeris Buds Unboxing</span></div>
+    <p class="vibe">🎭 genuinely surprised</p>
+    <p class="script">"Okay, the packaging alone is doing something to me. These are the Aeris Buds — and this case is genuinely smaller than my lip balm. Six hours of noise canceling, and they pair before I even open the app. The tap controls actually work. I'm shocked. First impressions? Dangerously easy to recommend."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p4</span><span class="time">~19s</span><span class="ttl">Penny Fintech Onboarding</span></div>
+    <p class="vibe">🎭 matter-of-fact, a little smug</p>
+    <p class="script">"Setting up a budget used to take me a whole Sunday. This took ninety seconds. Step one: connect your accounts — it's read-only, relax. Step two: it sorts three months of spending by itself. I did nothing. Step three: it tells you the one number you can spend today. Ninety seconds. That's the whole setup."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p5</span><span class="time">~18s</span><span class="ttl">LUMA Serum Texture</span></div>
+    <p class="vibe">🎭 sensory, slow, ASMR-adjacent</p>
+    <p class="script">"This texture is the whole personality of my routine now. It's the LUMA Dew serum — it feels like water but sits like a glaze. One dropper, and it's absorbed before I finish my playlist song. No stick. No film. Just… glass. Texture people — this one's for us."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p7</span><span class="time">~18s</span><span class="ttl">Evening Routine</span></div>
+    <p class="vibe">🎭 calm, end-of-day voice</p>
+    <p class="script">"My skin stopped fighting me when I stopped overcomplicating this. Three steps. Cleanse — thirty seconds, lukewarm, that's it. Serum while my skin's still damp. Locks everything in. Cream, and I'm done before my tea's cold. Simple is the routine you'll actually keep."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p8</span><span class="time">~24s</span><span class="ttl">GlowPod Device Demo</span></div>
+    <p class="vibe">🎭 lazy-luxury confidence</p>
+    <p class="script">"The spa charges eighty dollars for what this does on my nightstand. GlowPod Pro. One button. Ten minutes. That's the entire learning curve. Three light modes, and it shuts itself off when the session's done. It's the only step I never skip — because it runs while I do nothing. Lazy-proof skincare tech. Finally."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_p9</span><span class="time">~17s</span><span class="ttl">Mini Digicam Recut (your footage!)</span></div>
+    <p class="vibe">🎭 deadpan delight</p>
+    <p class="script">"Fifteen dollars. At Target. This is the Vivitar ClixShot — a mini digicam that shoots actual HD. USB-C charging, keychain included, real flash. The little screen shows you every shot — very 2006, very worth it. Honestly? The flash goes harder than my phone's. Fifteen. Dollars."</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-title"><h2>📱 Batch 2 — Your feed</h2><span>seasoning posts · real voice = authenticity + drops the AI-voice label</span></div>
+  <p class="sec-note">These swap into the posting-kit videos the same way.</p>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_d03</span><span class="time">~13s</span><span class="ttl">remove.bg tip</span></div>
+    <p class="vibe">🎭 quick-tip energy</p>
+    <p class="script">"This free site removes any background in three seconds. Drag the photo in… done. It handles hair better than my editing app, and the standard size is free. Remove-dot-B-G. Thank me later."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_d05</span><span class="time">~12s</span><span class="ttl">AI grocery list</span></div>
+    <p class="vibe">🎭 casual life-hack</p>
+    <p class="script">"I stopped writing grocery lists. I told the AI what I eat in a week — it built the list, sorted it by aisle, with a budget cap. Ninety seconds. The exact prompt's in my comments."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_d07</span><span class="time">~18s</span><span class="ttl">AI b-roll meta post</span></div>
+    <p class="vibe">🎭 honest tester</p>
+    <p class="script">"I was skeptical about AI b-roll too. Then I tested it against my own phone footage — same hooks, same captions. The AI pack held retention within five percent… at a tenth of the production time. It's not replacing creators. It's replacing shot lists."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_d08</span><span class="time">~15s</span><span class="ttl">CapCut free vs pro</span></div>
+    <p class="vibe">🎭 straight shooter</p>
+    <p class="script">"The honest difference between free and paid CapCut: free gives you cuts, captions, and speed ramps — everything a UGC edit needs. Pro is really the AI tools and the stock library. Start free. Upgrade when clients ask."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_d10</span><span class="time">~19s</span><span class="ttl">Learn copywriting with AI</span></div>
+    <p class="vibe">🎭 mentor energy, fast</p>
+    <p class="script">"If I had to learn copywriting from scratch today: one — Jasper drafts, you dissect why the hooks work. Two — Perplexity for a seven-day study plan with sources. Three — rewrite one viral ad every day. Seven days. Real skill."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_d12</span><span class="time">~14s</span><span class="ttl">3 free tools</span></div>
+    <p class="vibe">🎭 conspiratorial</p>
+    <p class="script">"Three free tools quietly replacing paid apps. Canva — the design suite. Photopea — Photoshop, in a browser tab, free. CapCut — the whole edit bay. Your subscriptions are sweating."</p>
+  </div>
+
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_d14</span><span class="time">~12s</span><span class="ttl">Open for collabs (capstone)</span></div>
+    <p class="vibe">🎭 confident, open-armed</p>
+    <p class="script">"I make faceless UGC for tech and beauty brands — demos, screen records, and b-roll that sells. Every piece is audited before it ships. Open for collabs — portfolio's in bio."</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-title"><h2>👋 Bonus</h2><span>10 seconds, used on platform profiles everywhere</span></div>
+  <div class="card"><label class="done"><input type="checkbox">recorded</label>
+    <div class="card-top"><span class="fname">vo_intro</span><span class="time">~10s</span><span class="ttl">Profile intro</span></div>
+    <p class="vibe">🎭 warm handshake</p>
+    <p class="script">"Hey, I'm Shaylee — I make faceless UGC for tech and beauty brands. Demos, screen-records, and b-roll your editors can cut straight into ads. Let's make something that sells."</p>
+  </div>
+
+  <div class="card bonus">
+    <div class="card-top"><span class="fname" style="background:var(--gold)">📼 after VOs</span><span class="ttl">Digicam follow-up shoot (the video your comments asked for)</span></div>
+    <p class="vibe">🎯 search magnet: say "vivitar clixshot — how to upload the photos" OUT LOUD in the clip</p>
+    <p class="script"><b>Shot list (film loose, I'll cut it):</b><br>
+    1️⃣ Camera + USB-C cable in hand — "this is the part nobody shows you" (5s)<br>
+    2️⃣ Plug into your laptop/phone → the import/gallery window popping up — screen-record this part (10–15s)<br>
+    3️⃣ Scroll the imported photos — let the grainy retro aesthetic breathe (5–10s)<br>
+    4️⃣ Hold the camera up to the lens to close (3s)<br>
+    Narrate naturally while you do it or stay silent — I'll cut it either way. Send clips like the last batch.</p>
+  </div>
+</section>
+
+<p class="foot">The Faceless Studio · recording sheet · scripts also live in the blueprint doc → "Voiceover Recording Kit"</p>
+</div>
+</body>
+</html>

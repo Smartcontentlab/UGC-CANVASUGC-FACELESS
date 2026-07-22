@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Band,DejaVu Sans,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,14,0,2,90,90,380,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:02.80,Band,,0,0,0,,the $15 mini digicam from target
+Dialogue: 0,0:00:02.80,0:00:06.30,Band,,0,0,0,,vivitar clixshot — HD, holds 100 photos
+Dialogue: 0,0:00:06.30,0:00:09.30,Band,,0,0,0,,usb-c charging + a keychain in the box
+Dialogue: 0,0:00:09.30,0:00:14.30,Band,,0,0,0,,2MP screen with real previews — like 2006
+Dialogue: 0,0:00:14.30,0:00:17.50,Band,,0,0,0,,it actually takes decent photos??
+Dialogue: 0,0:00:17.50,0:00:20.40,Band,,0,0,0,,fifteen. dollars. run to target
