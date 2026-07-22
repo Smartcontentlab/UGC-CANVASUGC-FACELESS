@@ -31,3 +31,13 @@ SaveFile, UpdateDocument progressively ~10:00-11:30 AM. Adapted: local faster-wh
   GitHub connect + Higgsfield promo outcomes pending
 - GitHub: user connects at Settings -> Integrations -> GitHub, then push whole project + portfolio site
 - User asks pending: posting day, Higgsfield promo scout report, Stripe email confirm
+
+
+## UPDATE 2026-07-22 ~11:50 AM PT — REPUBLISH COMPLETE
+- ALL 15 videos verified with real voice (incl. p4/p5 retakes; word-gap-compressed, tempo 1.10, tail-extended)
+- Portfolio page v7: all 9 tiles play real-voice versions; footer: "all voiceovers are the creator's real voice"
+- Public page URL unchanged: https://hyperagent.com/s/FMzW0cevuae9D2CofCVq0A
+- New pub URLs for realvo pieces are in the page source (this repo, portfolio/portfolio_page.html)
+- Higgsfield 10 credits -> 6-image ClixShot static ad set (NB2, ~1.5cr each); CloudFront URLs in chat; ad_set/ dir local
+- Backstage signup session handed to user (Talent + email prefilled); affiliate six-pack next in same session
+- Google Drive asset mirror: BLOCKED on Drive integration connect (user asked; recommended: connect google-drive, then cheap uploader agent mirrors all pub URLs + locals)
